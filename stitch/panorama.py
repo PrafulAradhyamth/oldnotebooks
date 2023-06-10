@@ -16,6 +16,9 @@ class Panaroma:
 
         if Values is None:
             return None
+        
+        if a>1:
+            print('praful')
 
         #to get perspective of image using computed homography
         (matches, Homography, status) = Values
